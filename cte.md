@@ -38,8 +38,8 @@ select * from nums;
 ```sql
 with updated as (
     update fuelprice
-    set amount = amount * 1.05
-    where date < current_date - interval '1 year'
+    set actual = false
+    where date < current_date - interval '1 month'
     returning iata, date, amount
 )
 select *
