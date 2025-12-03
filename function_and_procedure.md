@@ -1,7 +1,7 @@
 # PostgreSQL FUNCTION va PROCEDURE (`LANGUAGE plpgsql`)
 
-FUNCTION – qiymat qaytaradigan server tomondagi kod.  
-PROCEDURE – qiymat qaytarmaydi, `CALL` bilan chaqiriladi, ko‘proq transaction-ishlar uchun.
+FUNCTION – qiymat qaytaradi.  
+PROCEDURE – qiymat qaytarmaydi, `CALL` bilan chaqiriladi.
 
 - **Oddiy (scalar) FUNCTION – qiymat qaytaradigan funksiya**
 - **Scalar FUNCTION – validation va `RAISE EXCEPTION` bilan**
