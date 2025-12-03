@@ -166,7 +166,7 @@ declare
 begin
     update fuelprice
     set amount = amount * 1.05
-    where date < current_date - interval '1 year';
+    where date < current_date - interval '1 month';
 
     get diagnostics v_count = row_count;
 
